@@ -18,3 +18,26 @@ In other words, imagine you were writing this for a lawyer.
 ### Then...
 
 ...you'll revise your directions, and if time permits, trade again!
+
+### And then...
+
+...read [this article](https://help.github.com/articles/generating-ssh-keys/) about generating SSH Keys, and try setting up
+public key authentication with your github account.
+
+### And finally...
+
+...try it out! 
+
+```
+$ ssh -T git@github.com
+```
+
+### Ok one last thing...
+
+...update the remote url for the pbj repository you cloned yesterday.
+
+    $ cd ~/wdi/pbj
+    $ git remote -v
+    $ git remote set-url upstream git@github.com:ga-dc/pbj.git
+
+
